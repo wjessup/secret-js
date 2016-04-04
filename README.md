@@ -2,6 +2,17 @@
 
 store a message into whitespace.
 
+1) type message to store
+
+![](https://s3.amazonaws.com/f.cl.ly/items/083P3e3g2w3s2u2N3Q1e/Image%202016-04-04%20at%2011.14.33%20AM.png?v=0e4b99c4)
+
+2) select a file to store the message in. The original file is on the left, nothing has changed:
+
+
+3) message now stored in whitespace. Can get the message out:
+
+![example usage](https://s3.amazonaws.com/f.cl.ly/items/151N23002B2S3a23222N/Image%202016-04-04%20at%2011.12.57%20AM.png?v=d0762f33)
+
 ## getting started
 
 just run npm start and go to localhost:3000
