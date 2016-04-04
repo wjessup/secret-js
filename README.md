@@ -16,7 +16,13 @@ store a message into whitespace.
 
 ## getting started
 
-just run npm start and go to localhost:3000
+`npm install`
+
+then
+
+`npm start`
+
+and go to localhost:3000 to utilize the demo app.
 
 enter a message and select a textfile to hide the message in. 
 
