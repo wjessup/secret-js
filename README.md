@@ -8,8 +8,9 @@ store a message into whitespace.
 
 2) select a file to store the message in. The original file is on the left, nothing has changed:
 
+![](https://s3.amazonaws.com/f.cl.ly/items/0a2d2x3P153m27400x1K/Image%202016-04-04%20at%2011.15.09%20AM.png?v=6174dfd7)
 
-3) message now stored in whitespace. Can get the message out:
+3) The file on the right has the message stored in the whitespace:
 
 ![example usage](https://s3.amazonaws.com/f.cl.ly/items/151N23002B2S3a23222N/Image%202016-04-04%20at%2011.12.57%20AM.png?v=d0762f33)
 
