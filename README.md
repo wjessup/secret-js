@@ -34,7 +34,7 @@ Run tests with
 
 ## hiding the message
 
-the message is encrypted using AES and uses ![https://github.com/wjessup/encoder-js)](https://github.com/wjessup/encoder-js)
+the message is encrypted using AES and uses [https://github.com/wjessup/encoder-js](https://github.com/wjessup/encoder-js)
 
 then, encode keys are created that map each character in the message to a binary number. For example:
 
