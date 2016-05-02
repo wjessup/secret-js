@@ -28,9 +28,13 @@ enter a message and select a textfile to hide the message in.
 
 You can see the original file on the left and the file w/ the hidden message on the right. 
 
+Run tests with
+
+`npm test`
+
 ## hiding the message
 
-the message is encrypted using AES.
+the message is encrypted using AES and uses ![https://github.com/wjessup/encoder-js)](https://github.com/wjessup/encoder-js)
 
 then, encode keys are created that map each character in the message to a binary number. For example:
 

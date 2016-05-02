@@ -6,11 +6,6 @@ function valuesInObject(o) {
   return arr;
 };
 
-function ljust(fillChar, length, str) {
-  return fillChar.repeat( length - str.length ) + str;  
-}
-
-
 function splitNChars(txt, num) {
   var result = [];
   for (var i = 0; i < txt.length; i += num) {
@@ -21,7 +16,6 @@ function splitNChars(txt, num) {
 
 var Utils = {
   valuesInObject,
-  ljust,
   splitNChars
 };
 

@@ -1,30 +1,23 @@
 {
-  "name": "Secret-JS",
-  "version": "1.0.0",
+  "name": "secret-js",
+  "version": "0.1.0",
   "description": "hide encrypted text within the whitespace of any textfile",
   "scripts": {
     "clean": "rimraf dist",
     "build:webpack": "cross-env NODE_ENV=production webpack --config webpack.config.prod.js",
     "build": "npm run clean && npm run build:webpack",
     "start": "node devServer.js",
-    "lint": "eslint src"
+    "lint": "eslint src",
+    "test": "babel-node tests/test.js"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/wjessup/secret-js.git"
   },
   "keywords": [
-    "react",
-    "reactjs",
-    "boilerplate",
-    "hot",
-    "reload",
-    "hmr",
-    "live",
-    "edit",
-    "webpack",
-    "babel",
-    "react-transform"
+    "secret",
+    "whitespace",
+    "encoder-js"
   ],
   "author": "Will Jessup <will@willjessup.com> (http://github.com/wjessup)",
   "license": "MIT",
@@ -34,6 +27,7 @@
   "homepage": "https://github.com/wjessup/secret-js",
   "devDependencies": {
     "aes": "^0.1.0",
+    "babel-cli": "^6.7.5",
     "babel-core": "^6.6.5",
     "babel-eslint": "^5.0.0-beta4",
     "babel-loader": "^6.2.4",
